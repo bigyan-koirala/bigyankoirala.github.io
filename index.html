@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Bigyan Koirala - Personal Portfolio</title>
+    <style></style>
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/vendor/themify-icons.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/vendor/animate/animate.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/vendor/owl-carousel/owl.carousel.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/vendor/nice-select/css/nice-select.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/vendor/fancybox/css/jquery.fancybox.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/virtual.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/css/topbar.virtual.css"
+    />
+  </head>
+  <body class="theme-red" id="theme">
+    <!-- Back to top button -->
+    <div class="btn-back_to_top">
+      <span class="ti-arrow-up"></span>
+    </div>
+
+    <!-- Setting button -->
+    <div class="config">
+      <div class="template-config">
+        <!-- Settings -->
+        <div class="d-block">
+          <button class="btn btn-fab btn-sm" id="sideel" title="Settings">
+            <span class="ti-settings"></span>
+          </button>
+        </div>
+      </div>
+      <div class="set-menu">
+        <p>Select Color</p>
+        <div class="color-bar" data-toggle="selected">
+          <span
+            class="color-item bg-theme-red selected"
+            data-class="theme-red"
+          ></span>
+          <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
+          <span
+            class="color-item bg-theme-green"
+            data-class="theme-green"
+          ></span>
+          <span
+            class="color-item bg-theme-orange"
+            data-class="theme-orange"
+          ></span>
+          <span
+            class="color-item bg-theme-purple"
+            data-class="theme-purple"
+          ></span>
+        </div>
+        <select class="custom-select d-block my-2" id="change-page">
+          <option value="">Go To</option>
+          <option value="top" style="font-weight: bold">Top</option>
+          <option value="bottom" style="font-weight: bold">Bottom</option>
+        </select>
+      </div>
+    </div>
+
+    <div
+      class="vg-page page-home"
+      id="home"
+      style="background-image: url(../assets/img/bg_image_1.jpg)"
+    >
+      <!-- Navbar -->
+      <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
+        <div class="container">
+          <a href="" class="navbar-brand">Bigyan</a>
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#main-navbar"
+            aria-expanded="true"
+          >
+            <span class="ti-menu"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#home" class="nav-link" data-animate="scrolling"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link dark" data-animate="scrolling"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#portfolio"
+                  class="nav-link dark"
+                  data-animate="scrolling"
+                  >Certifications</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#blog" class="nav-link dark" data-animate="scrolling"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#contact"
+                  class="nav-link dark"
+                  data-animate="scrolling"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="theme-toggle-wrapper">
+            <input
+              type="checkbox"
+              id="theme-toggle"
+              class="theme-toggle"
+              onclick="toggleTheme()"
+              style="margin-left: 20px"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- End Navbar -->
+
+      <!-- social - icons  -->
+      <div class="social-icons pt-3">
+        <ul>
+          <li class="social-item">
+            <a
+              class="social-link text-light"
+              href="https://www.facebook.com/bigyan.koirala2056"
+              target="_blank"
+              ><i class="ti-facebook" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li class="social-item">
+            <a
+              class="social-link text-light"
+              href="https://www.instagram.com/bigyan.koirala2056"
+              target="_blank"
+              ><i class="ti-instagram" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li class="social-item">
+            <a
+              class="social-link text-light"
+              href="https://x.com/BigyanKoirala56"
+              target="_blank"
+              ><i class="ti-twitter" aria-hidden="true"></i
+            ></a>
+          </li>
+
+          <li class="social-item">
+            <a
+              class="social-link text-light"
+              href="https://www.linkedin.com/in/bigyankoirala99"
+              target="_blank"
+              ><i class="ti-linkedin" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Caption header -->
+      <div class="caption-header text-center wow zoomInDown">
+        <h5 class="fw-normal">Welcome</h5>
+        <h1 class="fw-light mb-4">
+          I'm <b class="fg-theme">Bigyan</b> Koirala
+        </h1>
+        <div class="badge">Cybersecurity Enthusiast</div>
+      </div>
+      <!-- End Caption header -->
+      <div class="floating-button"><span class="ti-mouse"></span></div>
+    </div>
+
+    <div class="vg-page page-about dark" id="about">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-4 py-3">
+            <div class="img-place wow fadeInUp">
+              <img src="../assets/img/bigyan.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-1 wow fadeInRight">
+            <h1 class="fw-light">Bigyan Koirala</h1>
+            <h5 class="fg-theme mb-3">Computer Engineer</h5>
+            <p class="text-muted" style="text-align: justify">
+              Computer engineer working to specialize in information security,
+              with a strong interest in cyber law, public policy, and
+              socio-economic issues. Passionate about traveling and connecting
+              with local people and cultures, embracing authenticity. Driven by
+              a commitment to ethical solutions & innovation, I strive to bridge
+              technology with societal impact.
+            </p>
+            <ul class="theme-list">
+              <li><b>From:</b> Waling, Syangja, Nepal</li>
+              <li><b>Lives In:</b> New Baneshwor, Kathmandu, Nepal</li>
+              <li><b>Age:</b> 25</li>
+              <li><b>Gender:</b> Male</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container py-5 dark">
+        <h1 class="text-center fw-normal wow fadeIn">My Skills</h1>
+
+        <div class="row py-4">
+          <div class="col-md-6">
+            <div class="py-lg-3">
+              <div class="card card-service wow fadeInUp">
+                <div class="icon dark">
+                  <span class="ti-shield"></span>
+                  <span class="ti-linux"></span>
+                </div>
+                <div class="caption">
+                  <h4 class="fg-theme">Security</h4>
+                  <div class="row py-4">
+                    <div class="py-lg-4">
+                      <ul class="listingSkills">
+                        <li>Linux, Windows</li>
+                        <li style="white-space: normal">Computer Networking</li>
+                        <li>EDR, NGAV</li>
+                        <li>SIEM, SOC</li>
+                        <li style="white-space: normal">
+                          Vulnerability Assessment
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="py-lg-3">
+              <div class="card card-service wow fadeInUp">
+                <div class="icon dark">
+                  <span class="ti-html5"></span>
+                  <span class="ti-css3"></span>
+                </div>
+                <div class="caption">
+                  <h4 class="fg-theme">Coding</h4>
+                  <div class="row py-4">
+                    <div class="py-lg-4">
+                      <ul class="listingSkills">
+                        <li>C/C++</li>
+                        <li>HTML/CSS/JavaScript</li>
+                        <li>Python</li>
+                        <li>Flutter</li>
+                        <li>Regex (Parser)</li>
+                        <li>Git</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row py-4">
+          <div class="col-md-6">
+            <div class="py-lg-3">
+              <div class="card card-service wow fadeInUp">
+                <div class="icon dark">
+                  <span class="ti-comment"></span>
+                  <span class="ti-light-bulb"></span>
+                </div>
+                <div class="caption">
+                  <h4 class="fg-theme">Soft Skills</h4>
+                  <div class="row py-4">
+                    <div class="py-lg-4">
+                      <ul class="listingSkills">
+                        <li>Communication</li>
+                        <li>Teamwork</li>
+                        <li>Problem Solving</li>
+                        <li>Emotional Intelligence</li>
+                        <li>Interpersonal Skills</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="py-lg-3">
+              <div class="card card-service wow fadeInUp">
+                <div class="icon dark">
+                  <span>🗣</span>
+                  <span class="ti-pencil"></span>
+                </div>
+                <div class="caption">
+                  <h4 class="fg-theme">Languages</h4>
+                  <div class="row py-4">
+                    <div class="py-lg-4">
+                      <ul class="listingSkills" style="font-size: 0.893rem;">
+                        <li style="white-space: nowrap">
+                          Nepali: Bilingual Proficiency 
+                        
+                        </li>
+                        <br>
+                        <li style="white-space: nowrap">
+                          English: Professional Proficiency
+                        </li>
+                        <br />
+                        <li style="white-space: nowrap">
+                          Hindi: Limited Proficiency
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-md-6 wow fadeInRight">
+            <h2 class="fw-normal">Education</h2>
+            <ul class="timeline mt-4 pr-md-5">
+              <li>
+                <div class="title" style="width: 45%">2023 AD (2080 BS)</div>
+                <div class="details dark">
+                  <h5>BE in Computer Engineering</h5>
+                  <small class="fg-theme"
+                    >Pulchowk Campus, Institute of Engineering (Pulchowk,
+                    Lalitpur)</small
+                  >
+                  <p >
+                    Started at Pulchowk Campus in 2018, completed a Bachelor's
+                    in Computer Engineering in 2023, and acquired an engineering
+                    license through the Nepal Engineering Council exam
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="title" style="width: 45%">2018 AD (2075 BS)</div>
+                <div class="details dark">
+                  <h5>Plus 2 (Science)</h5>
+                  <small class="fg-theme"
+                    >Janapriya Multiple Campus (Pokhara, Kaski)</small
+                  >
+                  <p >
+                    Completed an Intermediate Level Program (also known as Plus
+                    2) in the Science stream, conducted by the National
+                    Examination Board
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="title" style="width: 45%">2015 AD (2072 BS)</div>
+                <div class="details dark">
+                  <h5>School Leaving Certificate (SLC)</h5>
+                  <small class="fg-theme"
+                    >Shree Purnamrit Bhavani Secondary School (Waling,
+                    Syangja)</small
+                  >
+                  <p >
+                    Joined Purnamrit Bhavani School in 2070 BS and completed the
+                    School Leaving Certificate, conducted by the Government of
+                    Nepal
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
+            <h2 class="fw-normal">Experience</h2>
+            <ul class="timeline mt-4 pr-md-5">
+              <li>
+                <div class="title">2024 - Current</div>
+                <div class="details dark">
+                  <h5>Security Engineer</h5>
+                  <small class="fg-theme">CryptoGen Nepal</small>
+                  <p >
+                    Involve in maintenance of SIEM technologies within the SOC
+                    infrastructure along with Vulnerability Assessment and
+                    Management
+                  </p>
+                </div>
+              </li>
+              <li class="second-list">
+                <div class="title1">2023 - Current</div>
+                <div class="details dark">
+                  <h5>Interpreter</h5>
+                  <small class="fg-theme">TransPerfect</small>
+                  <p >
+                    Involve in providing real-time over-the-phone interpretation
+                    for English<>Nepali, specializing in medical and financial
+                    sectors
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="title">2023</div>
+                <div class="details dark">
+                  <h5>Security Analyst</h5>
+                  <small class="fg-theme">Raechal Enterprises Pvt Ltd</small>
+                  <p >
+                    Engaged in deploying and supporting industry-leading
+                    security solutions like Crowdstrike's EDR and NGAV
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certification page -->
+    <div class="vg-page page-portfolio page-service" id="portfolio">
+      <div class="container" style="text-align: center">
+        <div class="text-center wow fadeInUp">
+          <div class="badge badge-subhead">Certifications</div>
+        </div>
+        <div class="card card-service-certification wow fadeInUp">
+          <div class="caption">
+            <h4 class="fg-theme" style="text-align: center">
+              Cybersecurity Tools and Product Certifications
+            </h4>
+            <ul class="listing-certifications">
+              <li>SIEM Administrator - LogRhythm</li>
+              <li>SOC Analyst- LogRhythm</li>
+              <li>Falcon Administrator - CrowdStrike</li>
+              <li>Vulnerabilty Assesment - Tenable</li>
+              <li>AWS Cloud Foundation - Amazon</li>
+              <li>WAF Foundation - Barracuda</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog -->
+    <div class="vg-page page-blog dark" id="blog">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge badge-subhead wow fadeInUp">
+            Blog (Demo Blog - Coming Soon!)
+          </div>
+        </div>
+        <div class="row post-grid">
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/work-9.jpg" alt="" />
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category"
+                  >Technology</a
+                >
+                <a href="#" class="post-title">Invision design forward fund</a>
+                <span class="post-date"
+                  ><span class="sr-only">Published on</span> May 22, 2018</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/work-6.jpg" alt="" />
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">Business</a>
+                <a href="#" class="post-title"
+                  >Announcing a plan for small teams</a
+                >
+                <span class="post-date"
+                  ><span class="sr-only">Published on</span> May 22, 2018</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/work-1.jpg" alt="" />
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">Design</a>
+                <a href="#" class="post-title">5 basic tips for illustrating</a>
+                <span class="post-date"
+                  ><span class="sr-only">Published on</span> May 22, 2018</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="text-center fw-normal wow fadeInUp">Latest Post</h1>
+
+        <div class="row post-grid">
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">
+                  <a
+                    href="https://twitter.com/BigyanKoirala56/status/1863161316560838700"
+                  ></a>
+                </p>
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">
+                  <a
+                    href="https://twitter.com/BigyanKoirala56/status/1820856941863948453"
+                  ></a>
+                </p>
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">
+                  <a
+                    href="https://twitter.com/BigyanKoirala56/status/1863588498554736685"
+                  ></a>
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End blog -->
+
+    <!-- Contact -->
+    <div class="vg-page page-contact dark" id="contact">
+      <div class="container-fluid dark">
+        <div class="text-center wow fadeInUp dark">
+          <div class="badge badge-subhead">Contact</div>
+        </div>
+        <h1 class="text-center fw-normal wow fadeInUp">Get in touch</h1>
+        <div class="row py-5">
+          <div class="col-lg-7 px-0 pr-lg-3 wow zoomIn">
+            <div class="vg-maps">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.9197535322805!2d85.32895017532304!3d27.688874976193173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19bc2db1be7d%3A0x80d591b8bbfb6b28!2sAlfa%20Beta%20Institute!5e0!3m2!1sen!2snp!4v1733464331127!5m2!1sen!2snp"
+                width="500"
+                height="400"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <form
+              class="vg-contact-form"
+              action="https://formspree.io/f/mnnqrkko"
+              method="POST"
+            >
+              <div class="form-row">
+                <div class="col-12 mt-3 wow fadeInUp">
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="Name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="col-6 mt-3 wow fadeInUp">
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="Email"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+                <div class="col-6 mt-3 wow fadeInUp">
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="Subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="col-12 mt-3 wow fadeInUp">
+                  <textarea
+                    class="form-control"
+                    name="Message"
+                    rows="1"
+                    placeholder="Enter message here.."
+                    required
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-theme mt-3 wow fadeInUp ml-1"
+                >
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Contact -->
+
+    <!-- Footer -->
+    <div class="vg-footer dark">
+      <h1 class="text-center fg-theme">Contact Me</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5 px-3 py-3 dark">
+            <div class="footer-info">
+              <p class ="fg-theme" style="font-weight: bold">Where to find me</p>
+              <hr class="divider" />
+              <span class="dark" style="text-decoration: underline"
+                >Temporary Address:
+              </span>
+              <ul>
+                <li>New Baneshwor, Kathmandu,<br />Bagmati, Nepal, 44600</li>
+                <li>Birauta, Pokhara, Kaski,<br />Gandaki, Nepal, 33700</li>
+              </ul>
+              <span class="dark" style="text-decoration: underline"
+                >Permanent Address:
+              </span>
+              <ul>
+                <li>Waling, Syangja, <br />Gandaki, Nepal, 33200</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="float-lg-right dark">
+              <p class = "fg-theme" style="font-weight: bold">Let's Connect</p>
+              <hr class="divider" />
+              <ul class="list-unstyled">
+                <li class="ti-facebook">
+                  <a
+                    class="dark"
+                    href="https://www.facebook.com/bigyan.koirala2056"
+                    target="_blank"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="ti-instagram">
+                  <a
+                    class="dark"
+                    href="https://www.instagram.com/bigyan.koirala2056"
+                    target="_blank"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="ti-twitter">
+                  <a
+                    class="dark"
+                    href="https://x.com/BigyanKoirala56"
+                    target="_blank"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="ti-linkedin">
+                  <a
+                    class="dark"
+                    href="https://www.linkedin.com/in/bigyankoirala99"
+                    target="_blank"
+                    >LinkedIn</a
+                  >
+                </li>
+
+                <li class="ti-github">
+                  <a
+                    class="dark"
+                    href="https://github.com/bigyan-koirala"
+                    target="_blank"
+                    >Github</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="float-lg-right">
+              <p class = "fg-theme" style="font-weight: bold">Reach me at</p>
+              <hr class="divider" />
+              <ul class="list-unstyled">
+                <li class="dark ti-email d-flex align-items-center">
+                  <a href="mailto:bigyan.koirala2056@gmail.com" class="dark ms-2">
+                    bigyan.koirala2056@gmail.com
+                  </a>
+                </li>
+                <li class="dark ti-mobile">
+                  <a href="tel:+9779863181093" class="dark">
+                    +977 9863181093
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div class="col-12" id="Copyright">
+            <p class="text-center mb-0 mt-4">
+              Copyright &copy; 2024. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End footer -->
+
+    <script src="../assets/js/jquery-3.5.1.min.js"></script>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+
+    <script src="../assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+
+    <script src="../assets/vendor/isotope/isotope.pkgd.min.js"></script>
+
+    <script src="../assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+
+    <script src="../assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+    <script src="../assets/vendor/wow/wow.min.js"></script>
+
+    <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+
+    <script src="../assets/js/colorSetting.js"></script>
+
+    <script src="../assets/js/topbar-virtual.js"></script>
+
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+
+    <script>
+      document
+        .getElementById("change-page")
+        .addEventListener("change", function () {
+          const selectedValue = this.value;
+          if (selectedValue === "top") {
+            // Scroll to the top of the page
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          } else if (selectedValue === "bottom") {
+            // Scroll to the footer section
+            window.scrollTo({
+              top: document.body.scrollHeight,
+              behavior: "smooth",
+            });
+          }
+          // Reset dropdown to the default option
+          this.value = "";
+        });
+    </script>
+
+    <script>
+      // Function to apply the theme
+      const applyTheme = (themeClass, isDark) => {
+        // Remove all theme-related classes except dark-theme
+        document.body.className = document.body.className.replace(
+          /\btheme-\w+\b/g,
+          ""
+        );
+
+        // Add the selected theme class
+        if (themeClass) {
+          document.body.classList.add(themeClass);
+        }
+
+        // Handle dark theme
+        if (isDark) {
+          document.body.classList.add("dark-theme");
+          document.getElementById("theme-toggle").checked = true;
+        } else {
+          document.body.classList.remove("dark-theme");
+          document.getElementById("theme-toggle").checked = false;
+        }
+      };
+
+      // On page load, apply saved theme
+      window.addEventListener("DOMContentLoaded", () => {
+        const savedTheme = localStorage.getItem("theme-class");
+        const isDark = localStorage.getItem("dark-theme") === "true";
+
+        // If no theme is saved, default to red
+        if (!savedTheme) {
+          savedTheme = "theme-red"; // Default theme class
+          localStorage.setItem("theme-class", savedTheme);
+        }
+
+        applyTheme(savedTheme, isDark);
+      });
+
+      // Event listeners for color items
+      document.querySelectorAll(".color-item").forEach((item) => {
+        item.addEventListener("click", (event) => {
+          // Remove 'selected' class from all items
+          document
+            .querySelectorAll(".color-item")
+            .forEach((el) => el.classList.remove("selected"));
+
+          // Add 'selected' class to the clicked item
+          event.target.classList.add("selected");
+
+          // Get the color class from the clicked item
+          const colorClass = event.target.getAttribute("data-class");
+
+          // Save the selected theme to localStorage
+          localStorage.setItem("theme-class", colorClass);
+
+          // Apply the theme
+          applyTheme(
+            colorClass,
+            document.getElementById("theme-toggle").checked
+          );
+        });
+      });
+
+      // Event listener for theme toggle
+      document.getElementById("theme-toggle").addEventListener("click", () => {
+        const isDark = document.getElementById("theme-toggle").checked;
+
+        // Save the dark theme state to localStorage
+        localStorage.setItem("dark-theme", isDark);
+
+        // Apply the dark theme
+        applyTheme(localStorage.getItem("theme-class"), isDark);
+      });
+    </script>
+  </body>
+</html>
