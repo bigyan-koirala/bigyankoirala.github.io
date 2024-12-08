@@ -844,7 +844,7 @@
 
       // On page load, apply saved theme
       window.addEventListener("DOMContentLoaded", () => {
-        const savedTheme = localStorage.getItem("theme-class");
+        let savedTheme = localStorage.getItem("theme-class");
         const isDark = localStorage.getItem("dark-theme") === "true";
 
        // If no theme is saved, default to red
@@ -880,6 +880,8 @@
         const isDark = document.getElementById("theme-toggle").checked;
         // Save the dark theme state to localStorage
         localStorage.setItem("dark-theme", isDark);
+      
+
         // Apply the dark theme
         applyTheme(localStorage.getItem("theme-class"), isDark);
       });
